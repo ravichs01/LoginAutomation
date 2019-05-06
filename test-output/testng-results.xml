@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24918" started-at="2019-05-05T13:50:38Z" finished-at="2019-05-05T13:51:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24918" started-at="2019-05-05T13:50:38Z" finished-at="2019-05-05T13:51:03Z">
+      <class name="selenium.LoginAutomationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="setup" is-config="true" duration-ms="13945" started-at="2019-05-05T19:20:24Z" finished-at="2019-05-05T19:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkRequiredFieldsExist()[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="checkRequiredFieldsExist" duration-ms="3039" started-at="2019-05-05T19:20:38Z" description="Checks login screen has username, password fields and login button" finished-at="2019-05-05T19:20:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRequiredFieldsExist -->
+        <test-method status="PASS" signature="takeScreenshotAfterFailure(org.testng.ITestResult)[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="takeScreenshotAfterFailure" is-config="true" duration-ms="2" started-at="2019-05-05T19:20:41Z" finished-at="2019-05-05T19:20:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkRequiredFieldsExist status=SUCCESS method=LoginAutomationTest.checkRequiredFieldsExist()[pri:0, instance:selenium.LoginAutomationTest@483bf400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterFailure -->
+        <test-method status="PASS" signature="checkLoginWithInvalidUsernamePassword()[pri:1, instance:selenium.LoginAutomationTest@483bf400]" name="checkLoginWithInvalidUsernamePassword" duration-ms="5035" started-at="2019-05-05T19:20:41Z" description="Checks login functionality with an invalid username and an invalid password" finished-at="2019-05-05T19:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithInvalidUsernamePassword -->
+        <test-method status="PASS" signature="takeScreenshotAfterFailure(org.testng.ITestResult)[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="takeScreenshotAfterFailure" is-config="true" duration-ms="1" started-at="2019-05-05T19:20:46Z" finished-at="2019-05-05T19:20:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginWithInvalidUsernamePassword status=SUCCESS method=LoginAutomationTest.checkLoginWithInvalidUsernamePassword()[pri:1, instance:selenium.LoginAutomationTest@483bf400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterFailure -->
+        <test-method status="PASS" signature="checkLoginWithInvalidUsernameAndNoPassword()[pri:2, instance:selenium.LoginAutomationTest@483bf400]" name="checkLoginWithInvalidUsernameAndNoPassword" duration-ms="3176" started-at="2019-05-05T19:20:46Z" description="Check login functionality with an invalid username but without providing a password" finished-at="2019-05-05T19:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithInvalidUsernameAndNoPassword -->
+        <test-method status="PASS" signature="takeScreenshotAfterFailure(org.testng.ITestResult)[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="takeScreenshotAfterFailure" is-config="true" duration-ms="0" started-at="2019-05-05T19:20:49Z" finished-at="2019-05-05T19:20:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginWithInvalidUsernameAndNoPassword status=SUCCESS method=LoginAutomationTest.checkLoginWithInvalidUsernameAndNoPassword()[pri:2, instance:selenium.LoginAutomationTest@483bf400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterFailure -->
+        <test-method status="PASS" signature="checkLoginWithInvalidPasswordAndNoUsername()[pri:3, instance:selenium.LoginAutomationTest@483bf400]" name="checkLoginWithInvalidPasswordAndNoUsername" duration-ms="3798" started-at="2019-05-05T19:20:49Z" description="Check login functionality with an invalid password but without providing a username" finished-at="2019-05-05T19:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithInvalidPasswordAndNoUsername -->
+        <test-method status="PASS" signature="takeScreenshotAfterFailure(org.testng.ITestResult)[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="takeScreenshotAfterFailure" is-config="true" duration-ms="1" started-at="2019-05-05T19:20:53Z" finished-at="2019-05-05T19:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginWithInvalidPasswordAndNoUsername status=SUCCESS method=LoginAutomationTest.checkLoginWithInvalidPasswordAndNoUsername()[pri:3, instance:selenium.LoginAutomationTest@483bf400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterFailure -->
+        <test-method status="PASS" signature="checkLoginWithValidUsernameAndInvalidPassword()[pri:4, instance:selenium.LoginAutomationTest@483bf400]" name="checkLoginWithValidUsernameAndInvalidPassword" duration-ms="5039" started-at="2019-05-05T19:20:53Z" description="Check login functionality with a valid username and with an invalid password" finished-at="2019-05-05T19:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithValidUsernameAndInvalidPassword -->
+        <test-method status="PASS" signature="checkLoginWithValidUsernameAndValidPassword()[pri:5, instance:selenium.LoginAutomationTest@483bf400]" name="checkLoginWithValidUsernameAndValidPassword" duration-ms="4790" started-at="2019-05-05T19:20:58Z" description="Check login functionality with a valid username and valid password" finished-at="2019-05-05T19:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginWithValidUsernameAndValidPassword -->
+        <test-method status="PASS" signature="takeScreenshotAfterFailure(org.testng.ITestResult)[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="takeScreenshotAfterFailure" is-config="true" duration-ms="0" started-at="2019-05-05T19:20:58Z" finished-at="2019-05-05T19:20:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginWithValidUsernameAndInvalidPassword status=SUCCESS method=LoginAutomationTest.checkLoginWithValidUsernameAndInvalidPassword()[pri:4, instance:selenium.LoginAutomationTest@483bf400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterFailure -->
+        <test-method status="PASS" signature="takeScreenshotAfterFailure(org.testng.ITestResult)[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="takeScreenshotAfterFailure" is-config="true" duration-ms="1" started-at="2019-05-05T19:21:03Z" finished-at="2019-05-05T19:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkLoginWithValidUsernameAndValidPassword status=SUCCESS method=LoginAutomationTest.checkLoginWithValidUsernameAndValidPassword()[pri:5, instance:selenium.LoginAutomationTest@483bf400] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotAfterFailure -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:selenium.LoginAutomationTest@483bf400]" name="cleanup" is-config="true" duration-ms="2456" started-at="2019-05-05T19:21:03Z" finished-at="2019-05-05T19:21:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- selenium.LoginAutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

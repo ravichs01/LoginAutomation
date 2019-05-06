@@ -1,0 +1,70 @@
+Test Cases:
+Component: Login
+
+Test case 1: 
+
+Description			: Check login screen has username and password fields along with the LOGIN button.
+Pre-condition		: The login page should be opened in the browser.
+Test Steps			: Open https://www.saucedemo.com/index.html in the browser. 
+Test Data			: No test data is required. 
+Expected Result		: On the login screen, username, password fields, and LOGIN button should be displayed.
+Post-Condition		: A login page with required fields and buttons.
+
+Test case 2: 
+
+Description			: Check login functionality with an invalid username and an invalid password.
+Pre-condition		: The entered username and password should be wrong.
+Test Steps			: Open https://www.saucedemo.com/index.html in the browser.
+					  Enter some random username and random password in username and password fields.
+					  Click on LOGIN button.
+Test Data 			: username -> unknown_user
+					  password -> unknown_password
+Expected Result		: An Error message "Epic sadface: Username and password do not match any user in this service"
+					  should be displayed.
+Post-Condition		: The user cannot be logged in.
+
+Test case 3: 
+
+Description			: Check login functionality with an invalid username but without providing a password.
+Pre-condition		: Make sure the password field is empty. 
+Test Steps			: Open https://www.saucedemo.com/index.html in the browser.
+					  Enter a random username in username field but don't enter a password in the password field.
+					  Click on LOGIN button.
+Test Data 			: username -> unknown_user 
+Expected Result		: An Error message "Epic sadface: Password is required" should be displayed.
+Post-Condition		: The user cannot be logged in.
+
+Test case 4:
+
+Description			: Check login functionality with an invalid password but without providing a username.
+Pre-condition		: Make sure the username is empty. 
+Test Steps			: Open https://www.saucedemo.com/index.html in the browser.
+					  Enter a random password in password field but don't enter a username in the username field.
+					  Click on LOGIN button.
+Test Data 			: password -> unknown_password
+Expected Result		: An Error message "Epic sadface: Username is required" should be displayed.
+Post-Condition		: The user cannot be logged in.
+
+Test case 5: 
+
+Description			: Check login functionality with a valid username and with an invalid password.
+Pre-condition		: The entered username should be from the accepted usernames list. 
+Test Steps			: Open https://www.saucedemo.com/index.html in the browser.
+					  Enter a valid username in username field and a random password in password field.
+					  Click on LOGIN button.
+Test Data 			: username -> standard_user
+					  password -> unknown_password
+Expected Result		: An Error message "Epic sadface: Username and password do not match any user in this service" should be displayed.
+Post-Condition		: The user cannot be logged in.
+
+Test case 6:
+
+Description			: Check login functionality with a valid username and valid password.
+Pre-condition		: The entered username and password should be correct. 
+Test Steps			: Open https://www.saucedemo.com/index.html in the browser.
+					  Enter a valid username, password in username and password fields.
+					  Click on LOGIN button.
+Test Data 			: username -> standard_user
+					  password -> secret_sauce
+Expected Result 	: Product page from SWAGLABS should be displayed. 
+Post-Condition		: A successful user login with a display of products.
